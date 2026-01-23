@@ -227,18 +227,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "mcp-qr-code"
-version = "0.1.0"
-dependencies = [
- "base64 0.21.7",
- "base64-serde",
- "extism-pdk",
- "qrcode-png",
- "serde",
- "serde_json",
-]
-
-[[package]]
 name = "memchr"
 version = "2.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -326,6 +314,18 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "qr-code"
+version = "0.1.0"
+dependencies = [
+ "base64 0.21.7",
+ "base64-serde",
+ "extism-pdk",
+ "qrcode-png",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
